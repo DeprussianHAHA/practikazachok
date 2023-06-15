@@ -1,0 +1,21 @@
+@media screen and(max-width: 515px){
+    header{
+        flex-direction: column;
+        height: auto;
+    }
+    header a{
+        display: none;
+    }
+    .mobile_icon{
+        display: block;
+        width: 2rem;
+        height: 2rem;
+        background: #fff;
+        padding: .5rem;
+        border-radius: 5px;
+        margin: 1rem;
+    }
+    .mobile_icon img{
+        width: 100%;
+    }
+}
